@@ -56,13 +56,16 @@ Enter the website address: """)
 
 clearConsole()
 
-time.sleep(2)
+time.sleep(2) 
 
 print(yellow+b+ f' IP address is: {socket.gethostbyname(host_name)}')
 
+clearConsole()
 os.system('git clone https://github.com/gkbrk/slowloris.git')
 
-time.sleep(7)
+time.sleep(10)
+
+clearConsole()
 
 os.system('cd slowloris')
 
